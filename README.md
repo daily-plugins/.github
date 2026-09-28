@@ -2,6 +2,8 @@
 
 This repository contains the public organization profile and shared brand assets for [Daily Plugins](https://github.com/daily-plugins).
 
+Daily Plugins hosts plugin repositories. Currently, its only available project is the [Vault plugin MCP server](https://github.com/daily-plugins/Vault). This `.github` repository contains organization branding and profile content; the MCP server source lives in `Vault`.
+
 ## Brand assets
 
 <img src="assets/daily-plugins.png" width="128" height="128" alt="Daily Plugins icon" />

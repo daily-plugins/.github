@@ -2,6 +2,8 @@
 
 [Daily Plugins](https://github.com/daily-plugins)의 공개 조직 프로필과 공용 브랜드 파일을 관리하는 저장소입니다.
 
+Daily Plugins는 플러그인 저장소 모음입니다. 현재 제공하는 프로젝트는 [Vault용 플러그인 MCP 서버](https://github.com/daily-plugins/Vault) 하나입니다. 이 `.github` 저장소에는 조직 브랜드와 프로필을 관리하며, MCP 서버 소스는 `Vault` 저장소에 있습니다.
+
 ## 브랜드 파일
 
 <img src="../../assets/daily-plugins.png" width="128" height="128" alt="Daily Plugins 아이콘" />
