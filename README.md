@@ -1,28 +1,33 @@
 # Daily Plugins organization profile
 
-This repository contains the public organization profile and shared brand assets for [Daily Plugins](https://github.com/daily-plugins).
-
-Daily Plugins hosts plugin repositories. Currently, its only available project is the [Vault plugin MCP server](https://github.com/daily-plugins/Vault). This `.github` repository contains organization branding and profile content; the MCP server source lives in `Vault`.
+Daily Plugins is a collection of plugin repositories. Currently, the only available project is the [Vault plugin MCP server](https://github.com/daily-plugins/Vault).
+This `.github` repository contains the public organization profile and shared brand assets. Server source lives in `Vault`.
 
 ## Brand assets
 
-<img src="assets/daily-plugins.png" width="128" height="128" alt="Daily Plugins icon" />
+<img src="assets/daily-plugins.png" width="200" height="200" alt="Daily Plugins original 3D plug and S-shaped cable" />
 
-| File | Size | Format |
+| File | Bytes | Purpose |
 | --- | --- | --- |
-| [daily-plugins.svg](assets/daily-plugins.svg) | 1,178 bytes | Editable 512 × 512 vector, transparent background |
-| [daily-plugins.png](assets/daily-plugins.png) | 9,927 bytes | 192 × 192 RGBA PNG, transparent background |
+| [daily-plugins.png](assets/daily-plugins.png) | 1,452,787 | Exact user-supplied original, including dark background; used in the organization profile |
+| [daily-plugins-transparent.png](assets/daily-plugins-transparent.png) | 446,766 | Background-removal edit preserving the 3D shape and colors; not pixel-identical to the original |
+| [daily-plugins-compact.png](assets/daily-plugins-compact.png) | 6,215 | 192 × 192 transparent PNG, under 10,000 bytes |
+| [daily-plugins.svg](assets/daily-plugins.svg) | 8,519 | Self-contained SVG with the compact PNG embedded, under 10,000 bytes |
 
-Both assets are smaller than 10,000 bytes. The mark preserves the reference's elongated S-shaped cable, upper-right diagonal plug, and cyan-blue-lavender color flow. The background and plug slot are transparent. Extruded sides and shadows have been removed. The compact PNG is 192 × 192; use SVG at larger sizes.
+The original image is preserved byte-for-byte. The transparent derivative was made with the built-in image-generation tool using background-only extraction instructions: retain the silhouette, S bends, plug, extrusion, shading, and cyan-blue-lavender colors. Small edge differences can occur in that derivative. Compact export uses palette compression.
 
-The user-provided image guided the silhouette and layout. A built-in image-generation edit informed a reference-faithful direction, followed by a clean editable SVG construction. The distributed PNG is rendered from that SVG with `@resvg/resvg-js`. No third-party app icon paths are included.
+The SVG is a raster container, **not an editable path-based vector**. This preserves the supplied artwork rather than replacing it with a simplified drawing. The full-resolution PNGs are not subject to the compact 10 KB limit.
 
 ## Organization profile
 
-GitHub displays [profile/README.md](profile/README.md) on the public organization overview. Its image uses an absolute raw-content URL so it resolves from the organization page.
+[profile/README.md](profile/README.md) displays the original artwork on the organization overview. The account avatar is unchanged.
 
-The account avatar is a separate setting and is not changed by this repository. This update applies the mark to the profile README only, as requested.
+Local working layout:
 
-Reference: [GitHub organization profile documentation](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile).
+```text
+daily-plugins/
+├── .github/   Organization profile and brand assets
+└── vault/     Vault plugin MCP server
+```
 
 [한국어 문서](notes/ko/README.md)
