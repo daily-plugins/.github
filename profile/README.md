@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/daily-plugins/.github/main/assets/daily-plugins.png" width="128" height="128" alt="Daily Plugins — plug and connecting cable" />
+  <img src="https://raw.githubusercontent.com/daily-plugins/.github/main/assets/daily-plugins.png?v=2" width="128" height="128" alt="Daily Plugins — plug and connecting cable" />
 </p>
 
 <h1 align="center">Daily Plugins</h1>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/daily-plugins/.github/main/assets/daily-plugins.png" width="128" height="128" alt="Daily Plugins — 플러그와 연결선" />
+  <img src="https://raw.githubusercontent.com/daily-plugins/.github/main/assets/daily-plugins.png?v=2" width="128" height="128" alt="Daily Plugins — 플러그와 연결선" />
 </p>
 
 <h1 align="center">Daily Plugins</h1>

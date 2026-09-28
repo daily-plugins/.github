@@ -10,13 +10,12 @@ Daily Plugins hosts plugin repositories. Currently, its only available project i
 
 | File | Size | Format |
 | --- | --- | --- |
-| [daily-plugins.svg](assets/daily-plugins.svg) | 754 bytes | Editable 512 × 512 vector, transparent background |
-| [daily-plugins.png](assets/daily-plugins.png) | 4,397 bytes | 256 × 256 RGBA PNG, transparent background |
-| [daily-plugins-400.png](assets/daily-plugins-400.png) | 7,173 bytes | 400 × 400 RGBA PNG, transparent background |
+| [daily-plugins.svg](assets/daily-plugins.svg) | 1,178 bytes | Editable 512 × 512 vector, transparent background |
+| [daily-plugins.png](assets/daily-plugins.png) | 9,927 bytes | 192 × 192 RGBA PNG, transparent background |
 
-Every asset is smaller than 10,000 bytes. The simple mark uses a cyan cable (`#68CBE8`) and a lavender plug (`#AA8AF5`), with a transparent slot. There are no gradients, shadows, background tiles, or baked-in checkerboards.
+Both assets are smaller than 10,000 bytes. The mark preserves the reference's elongated S-shaped cable, upper-right diagonal plug, and cyan-blue-lavender color flow. The background and plug slot are transparent. Extruded sides and shadows have been removed. The compact PNG is 192 × 192; use SVG at larger sizes.
 
-The user-provided plug-and-cable image was used as a visual reference. The SVG is a new, flat vector construction; the PNGs are rendered from that same source with `@resvg/resvg-js`. No third-party app icon paths are included.
+The user-provided image guided the silhouette and layout. A built-in image-generation edit informed a reference-faithful direction, followed by a clean editable SVG construction. The distributed PNG is rendered from that SVG with `@resvg/resvg-js`. No third-party app icon paths are included.
 
 ## Organization profile
 
