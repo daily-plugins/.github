@@ -1,7 +1,14 @@
 # Daily Plugins organization profile
 
-Daily Plugins is a collection of plugin repositories. Currently, the only available project is the [Vault plugin MCP server](https://github.com/daily-plugins/Vault).
-This `.github` repository contains the public organization profile and shared brand assets. Server source lives in `Vault`.
+Daily Plugins is a collection of plugin repositories for everyday workflows.
+This `.github` repository contains the public organization profile and shared brand assets. Each plugin's source and setup guides live in its own repository.
+
+## Projects
+
+- [Vault](https://github.com/daily-plugins/Vault) — Search, read, and edit Markdown in a selected local folder through MCP, with scoped instruction reviews.
+- [Trace](https://github.com/daily-plugins/trace) — Extract local Codex, Claude Code, and Antigravity session activity from a selected environment, with timestamps and source file/line evidence. Supports CLI, stdio MCP, and private tunnel connections.
+
+Trace currently reads supported local transcript formats. Remote service collection and persistent incremental indexing are planned; email and browser history are not yet supported.
 
 ## Brand assets
 
@@ -27,7 +34,8 @@ Local working layout:
 ```text
 daily-plugins/
 ├── .github/   Organization profile and brand assets
-└── vault/     Vault plugin MCP server
+├── vault/     Vault plugin MCP server
+└── trace/     Local agent session extraction and MCP server
 ```
 
 [한국어 문서](notes/ko/README.md)

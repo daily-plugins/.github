@@ -1,7 +1,14 @@
 # Daily Plugins 조직 프로필
 
-Daily Plugins는 플러그인 저장소 모음입니다. 현재 제공하는 프로젝트는 [Vault용 플러그인 MCP 서버](https://github.com/daily-plugins/Vault) 하나입니다.
-이 `.github` 저장소에는 공개 조직 프로필과 브랜드 파일을 관리합니다. 서버 소스는 `Vault`에 있습니다.
+Daily Plugins는 일상 작업을 위한 플러그인 저장소 모음입니다.
+이 `.github` 저장소에서 공개 조직 프로필과 브랜드 파일을 관리합니다. 각 플러그인의 소스와 설치 안내는 개별 저장소에 있습니다.
+
+## 프로젝트
+
+- [Vault](https://github.com/daily-plugins/Vault) — 선택한 로컬 폴더의 Markdown을 검색·읽기·편집하는 MCP 도구입니다. 적용 범위별 지침 검토를 지원합니다.
+- [Trace](https://github.com/daily-plugins/trace) — 선택한 환경의 로컬 Codex·Claude Code·Antigravity 세션 활동을 시각과 원본 파일·줄 번호 근거와 함께 추출합니다. CLI, stdio MCP, 비공개 터널 연결을 지원합니다.
+
+Trace는 현재 지원되는 로컬 transcript 형식을 읽습니다. 원격 서비스 수집과 영속 인덱스를 이용한 증분 수집은 계획 단계이며, 이메일·브라우저 기록은 아직 지원하지 않습니다.
 
 ## 브랜드 파일
 
@@ -27,7 +34,8 @@ SVG는 래스터 이미지를 담는 형식이며 **패스를 편집하는 벡�
 ```text
 daily-plugins/
 ├── .github/   Organization profile and brand assets
-└── vault/     Vault plugin MCP server
+├── vault/     Vault plugin MCP server
+└── trace/     Local agent session extraction and MCP server
 ```
 
 [English documentation](../../README.md)
